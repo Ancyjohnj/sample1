@@ -6,10 +6,10 @@
 
 The objective of this project is to clean and preprocess the dataset by handling missing values, duplicate values, inappropriate values, and outliers.
 
-Dataset
+#Dataset
 
 
-The dataset contains employee information such as:
+##he dataset contains employee information such as:
 
 
 .Company
@@ -26,7 +26,7 @@ The dataset contains employee information such as:
 .Gender
 
 
-Data Preprocessing Steps
+#3Data Preprocessing Steps
 
 
 .Explored the dataset and found unique values.
@@ -48,7 +48,7 @@ Data Preprocessing Steps
 .Applied StandardScaler for feature scaling.
 
 
-Tools Used
+#3Tools Used
 
 
 .Python
@@ -62,7 +62,7 @@ Tools Used
 .Scikit-learn
 
 
-Conclusion
+##Conclusion
 
 
 The dataset was successfully cleaned, analyzed, encoded, and scaled. The processed dataset is ready for further machine learning applications.
