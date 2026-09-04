@@ -1,69 +1,25 @@
-##Data Preprocessing Project
+     California Housing Regression
+##Project Description
 
+This project compares five regression algorithms using the California Housing dataset.
 
-##Objective
+##Algorithms Used
 
+Linear Regression
 
-The objective of this project is to clean and preprocess the dataset by handling missing values, duplicate values, inappropriate values, and outliers.
+Decision Tree Regressor
 
-#Dataset
+Random Forest Regressor
 
+Gradient Boosting Regressor 
 
-##he dataset contains employee information such as:
+Support Vector Regressor (SVR)
 
+Evaluation Metrics Mean Squared Error (MSE)
 
-.Company
+Mean Absolute Error (MAE) R² Score
 
+##Best Model
 
-.Age
-
-.Salary
-
-.Place
-
-.Country
-
-.Gender
-
-
-#3Data Preprocessing Steps
-
-
-.Explored the dataset and found unique values.
-.Performed statistical analysis.
-
-.Handled missing values using median and mode.
-.Replaced age value 0 with NaN.
-
-.Removed duplicate rows.
-
-.Detected outliers using the IQR method.
-
-.Filtered data based on age and salary.
-
-.Created Age vs Salary and Place-wise charts.
-
-.Applied One-Hot Encoding to categorical variables.
-
-.Applied StandardScaler for feature scaling.
-
-
-#3Tools Used
-
-
-.Python
-
-.Pandas
-
-.NumPy
-
-.Matplotlib
-
-.Scikit-learn
-
-
-##Conclusion
-
-
-The dataset was successfully cleaned, analyzed, encoded, and scaled. The processed dataset is ready for further machine learning applications.
+Random Forest Regressor performed the best among the five models tested.
 
