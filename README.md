@@ -1,25 +1,50 @@
-     California Housing Regression
-##Project Description
+         #Breast Cancer Classification#
+##Project Overview
 
-This project compares five regression algorithms using the California Housing dataset.
+This project uses the Breast Cancer Dataset from Scikit-learn to compare 5 Classification Algorithms.
 
 ##Algorithms Used
 
-Linear Regression
+Logistic Regression
 
-Decision Tree Regressor
+Decision Tree Classifier
 
-Random Forest Regressor
+Random Forest Classifier
 
-Gradient Boosting Regressor 
+Support Vector Machine (SVM)
 
-Support Vector Regressor (SVR)
+k-Nearest Neighbors (KNN)
 
-Evaluation Metrics Mean Squared Error (MSE)
+#3Preprocessing
 
-Mean Absolute Error (MAE) R² Score
+Loaded the Breast Cancer dataset.
 
-##Best Model
+Checked the dataset shape and features.
 
-Random Forest Regressor performed the best among the five models tested.
+Checked for missing values.
 
+Split the data into training and testing sets.
+
+Applied feature scaling where required.
+
+#3Model Comparison
+
+The performance of all 5 models was compared using Accuracy Score.
+
+The model with the highest accuracy was selected as the Best Model.
+
+##Tools Used
+
+Python
+
+Pandas
+
+Scikit-learn
+
+Jupyter Notebook
+
+##Conclusion
+
+Five classification algorithms were trained and compared on the Breast Cancer dataset.
+
+The best-performing model was selected based on its accuracy.
